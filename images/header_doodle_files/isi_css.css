@@ -1,0 +1,155 @@
+/*HEMLIBRA  300x600 caregiver */
+
+  .isi_sup {
+    font-size: .6em; line-height:0px; position: relative; top:-.5em;
+  }
+  .isi_supR {
+    font-size: .6em; line-height:0px; position: relative; top:-.5em; display:inline-block; margin-left:-2px;
+  }
+  /*.isi_sup2 {
+    font-size: .7em; line-height:0px; position: relative; top:-.4em;
+  }*/
+  .isi_normal {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 10px;
+    text-rendering: geometricPrecision;
+    line-height: 11px;
+    color:#000000;
+    margin-top:10px;
+    /*padding-top: 0px;*/
+    padding-left: 7px
+  }
+
+  .isi_bold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size: 10px;
+    text-rendering: geometricPrecision;
+    line-height: 11px;
+    color:#000000;
+    margin-top:10px;
+    padding-left: 7px
+  }
+  .isi_bold_1st {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+    font-size: 10px;
+    text-rendering: geometricPrecision;
+    line-height: 11px;
+    color:#000000;
+    margin-top:5px;
+    padding-left: 7px
+  }
+.linkColor {
+    color:#55565A;
+  }
+  /*bullets*/
+ul.indent1 {
+  list-style-position: outside;
+  font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+    line-height: 11px;
+    color:#000000;
+    margin-top:0px;
+    padding-top: 0px;
+    padding-left: 30px;
+}
+//
+.isi_blue {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size: 10px;
+    text-rendering: geometricPrecision;
+    line-height: 11px;
+    color:#00aeef;
+    margin-top:10px;
+    padding-left: 7px
+  }
+  .isi_blueTop {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size: 10px;
+    text-rendering: geometricPrecision;
+    line-height: 11px;
+    color:#00aeef;
+    margin-top:7px;
+    padding-left: 7px
+  }
+.isi_blueBIG {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size: 10px;
+    text-rendering: geometricPrecision;
+    line-height: 11px;
+    color:#a0a2a3;
+    /*color:#55565A;*/
+    margin-top:-5px;
+    padding-top: 0px;
+    text-decoration:underline;
+    padding-left: 7px
+  }
+
+.isi_end {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    font-size: 10px;
+    text-rendering: geometricPrecision;
+    line-height: 11px;
+    color:#55565A;
+    margin-top:10px;
+    padding-left: 7px
+  }
+.signoff_line {
+  background-color: #00aeef;
+  height: 7px;
+  margin-top:8px;
+
+}
+.signoff {
+  background-color: rgba(193, 198, 202, 0.38);
+  margin-top:5px;
+  padding-right:0px;
+}
+.isi_bg {
+  background-color: #ffffff;
+  padding-right:2px;
+}
+  
+a:hover, a:active, a:link, a:visited {
+  color: /*red*/;
+  /*color: #009BD3;*/
+  color: #3954a5;
+}
+.isi_genentech_logo {
+  padding-left: 7px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+  
+  /*//*/
+  #isi::-webkit-scrollbar {
+      -webkit-appearance: none !important;
+      background-color: rgb(215, 215, 215) !important;
+      border-radius: 12px !important;
+    }
+    #isi::-webkit-scrollbar:vertical {
+      width: 5px !important;
+    }
+    #isi::-webkit-scrollbar-thumb {
+      border-radius: 12px !important;
+      border: 0px !important;
+      background-color: rgb(0, 155, 211) !important;
+      cursor:hand;
+    }
+    /* Handle on hover */
+   #isi::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(35, 31, 32, 1) !important; 
+    cursor:hand;
+   }
+    #isi::-webkit-scrollbar-track {
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 6px inset !important;
+    }

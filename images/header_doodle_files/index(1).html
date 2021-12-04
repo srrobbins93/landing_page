@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://cdn.flashtalking.com/110416/3635426/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style></style><meta name="ad.size" content="width=728,height=90">
+<script type="text/javascript"> 
+	var clickTag = "https://xfinity.com/";
+</script>
+	
+<script src="./gsap.min(1).js"></script>
+<script src="./jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./SplitText.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="./style.css">
+	
+<style rel="stylesheet" type="text/css">
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    image-rendering: -webkit-optimize-contrast;
+}
+body, body * {
+	vertical-align: baseline;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+#container {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	border: 1px solid #aaaaaa;
+	overflow: hidden;
+	opacity: 1;
+	box-sizing: border-box;
+	visibility: hidden;
+}
+
+div {
+	position: absolute;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+img {
+	position: absolute;
+	backface-visibility: hidden;
+    transform: translateZ(0) scale(1.0, 1.0);
+}
+#bg {
+	background: #ffffff;
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.area{
+	width: 50%;
+	height: 100%;
+	opacity: 1;
+	left: 50%;
+	background: #8B8B97;
+}
+#area1{
+	left: 0;
+	background: #ffffff;
+}
+.copy{
+	font-size:18px;
+	line-height: 22px;
+	opacity: 1;
+	position: relative;
+	display: table-cell;
+    vertical-align:top;
+	text-align: left;
+	width: 100%;
+    letter-spacing: -0.8px;
+	display: block;
+	color: #fff;
+}
+
+.copyHolder{
+	display: table;
+	top: 9px;
+	left: 9px;
+	height: 160px;
+	width: 400px;
+	opacity: 1;
+	overflow: hidden;
+}
+#frame1Copy div, #frame2Copy div, #frame3Copy div, #frame4Copy div{
+		opacity: 1;
+}
+#frame1Copy > div, #frame2Copy > div, #frame3Copy > div, #frame4Copy > div{
+	overflow: hidden;
+}
+.legal{
+	font-size: 9px;
+	line-height: 12px;
+	letter-spacing: -.1px;
+	color: #8b8b97;
+	left: 0px;
+	top: 7px;
+	position: relative;
+	display: block;
+	opacity: 1;
+}
+#imagery{
+	position: absolute; 
+	left: 50%; 
+	opacity: 1; 
+	height: 100%; 
+	width: 50%;
+	text-align: center;
+}
+
+#device1 {
+	position: relative;
+	width: 157px;
+	height: 246px;
+    top: 10px;
+	left: 82px;
+    opacity: 1;
+	
+}
+#device1 img{	
+	left: 50%;
+	transform: translateX(-50%);
+	width: 157px;
+	height: 246px;
+	top: 0;
+}
+#device2, #device3, #device4 {
+	position: absolute;
+	width: 141px;
+	height: 85px;
+    top: 4px;
+	left: 62px;
+    opacity: 1;
+	
+}
+#device2 img, #device3 img, #device4 img{	
+	left: 50%;
+	transform: translateX(-50%);
+	width: 141px;
+	height: 85px;
+	top: 0;
+}
+
+#logo, #logo2 {
+	width: 69px;
+	height: 23px;
+	right: 10px;
+	top: 10px;
+	opacity: 1;
+	position: absolute;
+}
+#logo2{
+	filter: brightness(.1);
+	-webkit-filter: brightness(.1);
+}
+#pricelockup, #frame2lockup{
+	opacity: 1;	
+	color: #000;
+	top:32px;
+	margin-left: 10px;
+}
+#frame2lockup{
+	top:7px;
+	left: 223px;
+	margin-left: 16px;
+}
+#endmsg{
+	color: #0d0d0f;
+	font-size: 10px;
+	line-height: 10px;
+	letter-spacing: 0px;
+}
+#fineprint{
+	color: #0d0d0f;
+	font-size: 10px;
+	line-height: 10px;
+	letter-spacing: 0px;
+}
+#frame2fineprint{
+	color: #0d0d0f;
+	font-size: 9px;
+	line-height: 9px;
+	letter-spacing: 0px;
+	text-align: right;
+}
+#endmsg{
+	margin-bottom: 2px;
+	line-height: 11px;
+}
+#dollarsign, #frame2dollarsign{
+	position: relative;
+	display: inline-block;
+	opacity: 1;
+	font-size: 26px;
+	line-height: 26px;
+	color:#008558;
+	vertical-align: top;
+	top: 4px;
+}
+#frame2dollarsign{
+}
+#dollars, #frame2dollars{
+	position: relative;
+	display: inline-block;
+	font-size: 50px;
+	line-height: 50px;
+	color:#008558;
+	letter-spacing: -.05em;
+}
+	#frame2dollars{
+		font-size: 60px;
+	line-height: 60px;
+	}
+.pricestack{
+	position: relative;
+	display: inline-block;
+	opacity: 1;	
+	vertical-align: top;
+	left: -2px;
+}
+#cents, #frame2cents{
+	position: relative;
+	display: block;
+	font-size: 20px;
+	line-height: 20px;
+	color:#008558;
+	vertical-align: top;
+	letter-spacing: -.05em;
+	margin-top: 2px;
+}
+#frame2cents{
+		font-size: 27px;
+	line-height: 27px;
+	}
+#term, #frame2term{
+	top: -2px;
+	position: relative;
+	display: block;
+	font-size: 9px;
+	line-height: 9px;
+	letter-spacing: -.05em;
+	color:#008558;
+}
+#fineprint{
+	top: 63px;	
+	left: 120px;
+	color: #8b8b97;
+	font-size: 9px;
+}
+#frame2fineprint{
+	top:-8px;	
+	color: #8b8b97;
+	text-align: right;
+}
+#frame2dollarsign, #frame2dollars, #frame2cents, #frame2term{
+	color: #1f69ff;
+}
+
+#frame3Copy{
+	transform-origin: top left;
+}
+#frame4CopyHolder{
+    top:28px;
+}
+#frame4Copy{
+    font-size: 12px;
+}
+#frame4Copy .word5:after{
+    content: "";
+    height: 2px;
+    width: 19px;
+    position: absolute;
+    bottom: 2px;
+    background-color: #1f69ff;
+    left: 0;
+}	
+#legal4{
+	top:3px;
+    color: #1f69ff;
+}
+#frame5CopyHolder{
+    width: 100%;
+
+}
+#frame5Copy {
+    color: #008558 !important;
+    font-size: 13px !important;
+}
+#frame5Copy > span{
+    opacity: 1;
+    color: #008558;
+    font-size: 18px;
+}
+#legal5{
+    top:initial;
+    position: absolute;
+    text-align: left;
+    bottom: 7px;
+    left: 455px;
+    line-height: 11px;
+}
+
+#ctalockup{
+	border-left: 2px solid #000;
+    padding-left: 0px;
+    left: 250px;
+    width: 300px;
+    top: 38px;
+    opacity: 1;
+    color: #000;
+    padding-bottom: 6px;
+    height: 35px;
+}
+#ctaheadline{
+	font-size: 15px;
+	line-height: 17px;
+	font-style: italic;
+	color:#000;
+	text-align: center;
+	width: 200px;
+	letter-spacing: -.6px;
+	padding-top: 5px;
+}
+#ctaheadline > span{
+	opacity: 1;
+	color: #008558;
+}
+#cta {
+	background: #28a2db;
+    color: #ffffff;
+    border-radius: 4px;
+    right: 9px;
+    bottom: 9px;
+    opacity: 1;
+    padding: 11px 22px;
+}
+#ctaCopy{
+	color: #ffffff;
+	font-size: 10px;
+	text-align: center;
+	padding: 0 0px;
+	white-space: nowrap;
+}
+#cta:after {
+    border-radius: 15px;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.6);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+#cta:hover:after {
+    width: 120%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+#cta:hover:after {
+    width: 120%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+#clickarea {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+#clicker{
+	width: 100%;
+	height: 100%;
+}
+
+</style>
+</head>
+<body class="animate">
+<div id="container" style="cursor: pointer; visibility: visible;">
+	<div id="bg"></div>
+	<div id="area1" class="area"></div>
+	<div id="area2" class="area" style="background-color: rgb(0, 133, 88);"></div>
+	<div id="area3" class="area" style="background-color: rgb(31, 105, 255); transform: translate(0px, 250px);"></div>
+	<div id="area4" class="area" style="background-color: rgb(0, 133, 88); transform: translate(0px, 250px);"></div>
+	<div id="area5" class="area" style="background-color: rgb(31, 105, 255); transform: translate(0px, 250px);"></div>
+	<div></div>
+	<div class="copyHolder" id="frame1CopyHolder">
+			<ft-dynamic name="frame1Copy" id="frame1Copy" class="xsb copy" style="font-size: 19px; line-height: 20px; color: rgb(0, 133, 88);"><div style="display: block; text-align: left; position: relative;"><div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word1">There's</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word2">NEVER</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word3">been</div></div><div style="display: block; text-align: left; position: relative;"><div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word4">a</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word5">better</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word6">time</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word7">to</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word8">switch</div></div></ft-dynamic>
+			<ft-dynamic name="legal1" id="legal1" class="legal xsb" style="opacity: 0; transform: translate(0px, 10px);"></ft-dynamic>
+	</div>
+	<div class="copyHolder" id="frame2CopyHolder">
+			<ft-dynamic name="frame2Copy" id="frame2Copy" class="xsb copy" style="font-size: 19px; line-height: 20px; color: rgb(31, 105, 255);"><div style="display: block; text-align: left; position: relative;"><div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word1">Get</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word2">the</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word3">fast,</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word4">reliable</div></div><div style="display: block; text-align: left; position: relative;"><div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word5">Internet</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word6">you</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word7">deserve</div></div></ft-dynamic>  
+			<ft-dynamic name="legal2" id="legal2" class="legal xsb" style="opacity: 0; transform: translate(0px, 10px);"></ft-dynamic> 
+	</div>
+	<div class="copyHolder" id="frame3CopyHolder">
+			<ft-dynamic name="frame3Copy" id="frame3Copy" class="xsb copy" style="font-size: 19px; line-height: 20px; color: rgb(0, 133, 88);"><div style="display: block; text-align: left; position: relative;"><div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word1">Plus,</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word2">for</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word3">the</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word4">FIRST</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word5">TIME</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word6">EVER</div></div></ft-dynamic> 
+			<ft-dynamic name="legal3" id="legal3" class="legal xsb" style="opacity: 0; transform: translate(0px, 10px);"></ft-dynamic> 
+	</div>
+	<div class="copyHolder" id="frame4CopyHolder">
+			<ft-dynamic name="frame4Copy" id="frame4Copy" class="xsb copy" style="font-size: 19px; line-height: 20px; color: rgb(31, 105, 255);"><div style="display: block; text-align: left; position: relative;"><div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word1">Ask</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word2">how</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word3">to</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word4">get</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word5">2x</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word6">the</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word7">speed</div></div><div style="display: block; text-align: left; position: relative;"><div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word8">for</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word9">the</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word10">SAME</div> <div style="position: relative; display: inline-block; transform: translate(0px, 40px);" class="word word11">PRICE!</div></div></ft-dynamic>
+			<ft-dynamic name="legal4" id="legal4" class="legal xsb" style="opacity: 0; transform: translate(0px, 10px);">When you add Xfinity Mobile with Unlimited data.</ft-dynamic> 
+	</div>
+	<div id="imagery">
+		<ft-dynamic name="device1" id="device1" style="opacity: 0; transform: translate(50px, 0px);"><img src="./x_rapid_device1_728x90.png"></ft-dynamic>
+		<ft-dynamic name="device2" id="device2" style="transform: translate(0px, 100px);"><img src="./x_rapid_device2_728x90.png"></ft-dynamic>
+		<ft-dynamic name="device3" id="device3" style="opacity: 0;"><img src="./x_rapid_device3_728x90.png"></ft-dynamic>
+		<ft-dynamic name="device2" id="device4" style="opacity: 0;"><img src="./x_rapid_device2_728x90.png"></ft-dynamic>
+	</div>
+	<ft-dynamic name="logo" id="logo"><img src="./Xfinity_logo_2017_wht_RGB.svg"></ft-dynamic>
+	
+	<div class="copyHolder" id="frame5CopyHolder" style="opacity: 0;">
+			<ft-dynamic name="frame5Copy" id="frame5Copy" class="xsb copy" style="font-size: 19px; line-height: 20px; color: rgb(31, 105, 255);"><span>FIRST TIME EVER</span> Ask how to get 2x the speed for the SAME PRICE!</ft-dynamic>
+			
+	</div>
+	<ft-dynamic name="legal5" id="legal5" class="legal xsc" style="opacity: 0; transform: translate(0px, 10px);">Equip., taxes, fees extra and subj. to<br>change. See disclaimer for details.</ft-dynamic> 
+	<div id="frame2lockup" style="opacity: 0;">
+		<div class="xsb" id="frame2dollarsign">$</div><ft-dynamic class="xsb" id="frame2dollars" name="dollars">29</ft-dynamic>
+		<div class="pricestack">
+			<ft-dynamic class="xsb" id="frame2cents" name="cents">99</ft-dynamic>
+			<ft-dynamic class="xsb" id="frame2term" name="term">a mo. /<br>24 mos.</ft-dynamic>
+		</div>
+		<ft-dynamic class="xsc" id="frame2fineprint" name="fineprint">Requires 1-yr contract, auto<br>pay &amp; paperless billing.</ft-dynamic>
+	</div>
+	<div id="pricelockup" style="opacity: 0; transform: translate(5px, 0px);">
+		<ft-dynamic class="xsb" id="endmsg" name="endmsg">Get started with Xfinity Internet</ft-dynamic>
+		<div class="xsb" id="dollarsign">$</div><ft-dynamic class="xsb" id="dollars" name="dollars">29</ft-dynamic>
+		<div class="pricestack">
+			<ft-dynamic class="xsb" id="cents" name="cents">99</ft-dynamic>
+			<ft-dynamic class="xsb" id="term" name="term">a mo. /<br>24 mos.</ft-dynamic>
+		</div>
+		
+	</div>
+	<ft-dynamic class="xsc" id="fineprint" name="fineprint" style="opacity: 0;">Requires 1-yr contract, auto<br>pay &amp; paperless billing.</ft-dynamic>
+	<div id="ctalockup" style="opacity: 0; transform: translate(-5px, 0px);">
+		<ft-dynamic class="xsn" id="ctaheadline" name="ctaheadline">Plus, get <span>FREE</span><br>professional installation</ft-dynamic>
+		
+	</div>
+	<div id="cta" style="background-color: rgb(0, 0, 0); opacity: 0; transform: translate(-5px, 0px);">
+			<ft-dynamic name="ctaCopy" id="ctaCopy" class="xsb" style="color: rgb(255, 255, 255); font-size: 10px;">Get It Now</ft-dynamic>  <!-- Variable -->
+		</div>
+	<ft-dynamic name="logo" id="logo2" style="opacity: 0;"><img src="./Xfinity_logo_2017_wht_RGB.svg"></ft-dynamic> 
+</div>
+
+<script>
+	
+    // Function to preload dynamic images 
+    function preloadDynamicVarImages() {
+        var _loadedImages=0;
+        //Preload all dynamic images 
+        var iavars = myFT.manifestProperties.instantAds;
+        var dImgArr = [];
+        for (var i = 0; i < iavars.length; i++) {
+            if (iavars[i].type == "image"){            
+                dImgArr.push(iavars[i].name);
+            } 
+        };    
+        for (var l = 0; l < dImgArr.length; l++) {
+            this["dimg" + l] = new Image();
+            this["dimg" + l].addEventListener('load', function() {
+                _loadedImages++;
+                if (_loadedImages == dImgArr.length) startAd();
+            });
+            this["dimg" + l].src = myFT.instantAds[dImgArr[l]];
+        }
+    };
+	
+	function startAd() {
+		var configString = myFT.instantAds.adSettings.replace(/'/g, '"'); 
+		configObject = JSON.parse(configString); 
+
+		// Set colors
+		
+		// Orange: e64f00
+		// Red: e6004d
+		// Blue: 1f69ff
+		// Green: 008558
+		// Purple: 6138f5
+
+		$('#cta').css( "background-color", configObject.ctaColor );
+		$('#ctaCopy').css( "color", configObject.ctaText );
+		$('#ctaCopy').css( "font-size", configObject.ctaSize+"px" );
+		$('.copy').css( "font-size", configObject.fontSize +"px" );
+		$('.copy').css( "line-height", (eval(configObject.fontSize)+1) +"px" );
+		$('.copy').css( "color", configObject.baseColor );
+		$('#area2').css( "background-color", configObject.altColor );
+		$('#area3').css( "background-color", configObject.baseColor );
+		$('#area4').css( "background-color", configObject.altColor );
+		$('#area5').css( "background-color", configObject.baseColor );
+		
+		$('#frame1Copy').css( "color", configObject.altColor );
+		$('#frame2Copy').css( "color", configObject.baseColor );
+		$('#frame3Copy').css( "color", configObject.altColor );
+		$('#frame4Copy').css( "color", configObject.baseColor );
+		
+		$('#legal').css( "color", configObject.legalColor );
+
+		
+		$('#container').hover(
+		  function() {
+			  $('#phone').css({ transform: 'scale(1.05)' });
+			  $('#phoneLogo').css({ top: '36px' });
+		  }, function() {
+			  $('#phone').css({ transform: 'scale(1)' });
+			  $('#phoneLogo').css({ top: '30px' })
+		  }
+		);
+
+		var tl = gsap.timeline(), 
+    	frame1Text = new SplitText("#frame1Copy", {type:"lines, words", wordsClass:"word word++"}), 
+    	frame1Words = frame1Text.words,
+		frame2Text = new SplitText("#frame2Copy", {type:"lines, words", wordsClass:"word word++"}), 
+    	frame2Words = frame2Text.words,
+		frame3Text = new SplitText("#frame3Copy", {type:"lines, words", wordsClass:"word word++"}), 
+    	frame3Words = frame3Text.words,
+		frame4Text = new SplitText("#frame4Copy", {type:"lines, words", wordsClass:"word word++"}),
+    	frame4Words = frame4Text.words; 
+
+		tl.to(container,0,{visibility:'visible'})
+
+		tl.from(frame1Words, {duration: 0.25, y:40, ease:"Power2.easeOut", stagger: 0.03}, "+=0");
+		tl.from(legal1, {duration: 0.25, y:10, opacity:0, ease:Power2.easeOut}, "-=0");
+		tl.from(device1, {duration: 0.25, x:50, opacity:0, ease:Power2.easeOut}, "-=.25");
+		tl.to(frame1Words, {duration: 0.25, y:-40, ease:"Power2.easeOut", stagger: 0.03}, "+=2.4");
+		tl.to(legal1, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.25");
+		tl.to(device1, {duration: 0.25, scale:.33, y:-87, x:-72, ease:Power2.easeOut}, "-=.25");
+
+		tl.from(area3, .5, {y:250, ease:"Power2.easeOut"}, "-=.25");
+		
+		tl.from(frame2Words, {duration: 0.25, y:40, ease:"Power2.easeOut", stagger: 0.03}, "-=.5");
+		tl.from(frame2lockup, {duration: 0.25,  opacity:0, ease:"Power2.easeOut"}, "-=.25");
+		tl.from(legal2, {duration: 0.25, y:10, opacity:0, ease:Power2.easeOut}, "-=0");
+		tl.from(device2, {duration: 0.25, y:100, ease:Power2.easeOut}, "-=.75");
+		tl.to(frame2Words, {duration: 0.25, y:-40, ease:"Power2.easeOut", stagger: 0.03}, "+=2.4");
+		tl.to(frame2lockup, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.25");
+		tl.to(legal2, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.25");
+		
+		
+		tl.from(area4, .5, {y:250, ease:"Power2.easeOut"}, "-=.25");
+		
+		tl.from(frame3Words, {duration: 0.25, y:40, ease:"Power2.easeOut", stagger: 0.03}, "-=.5");
+		tl.from(legal3, {duration: 0.25, y:10, opacity:0, ease:Power2.easeOut}, "-=.25");
+		tl.from(device3, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.5");
+		tl.to(device2, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.25");
+		tl.to(frame3Copy, {duration: 0.5, css:{color:"#1f69ff", scale:.8}, ease:Power2.easeOut}, "+=1.4");
+		tl.to(legal3, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.25");
+		tl.to(device3, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "+=.25");
+		
+		tl.from(area5, .5, {y:250, ease:"Power2.easeOut"}, "-=.5");
+		
+		tl.from(frame4Words, {duration: 0.25, y:40, ease:"Power2.easeOut", stagger: 0.03}, "-=.5");
+		tl.from(legal4, {duration: 0.25, y:10, opacity:0, ease:Power2.easeOut}, "-=0");
+		tl.from(device4, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.75");
+		tl.to(frame4Words, {duration: 0.25, y:-40, ease:"Power2.easeOut", stagger: 0.03}, "+=3.4");
+		tl.to(frame3Copy, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.25");
+		tl.to(legal4, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.25");
+		tl.to(device4, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.75");
+		tl.to(device1, {duration: 0.25, opacity:0, ease:Power2.easeOut}, "-=.75");
+		
+		tl.to('.area', .5, {opacity:0, ease:"Power2.easeOut"}, "-=.75");
+		
+		tl.to(logo, {duration: 0.5, opacity:0, ease:"Power2.easeOut"}, "-=.5");
+		tl.from(logo2, {duration: 0.5, opacity:0, ease:"Power2.easeOut"}, "-=.5");
+		tl.from(frame5CopyHolder, {duration: 0.25, opacity:0, ease:"Power2.easeOut"}, "+=0");
+		tl.from(pricelockup, {duration: 0.5, x:5, opacity:0, ease:"Power2.easeOut"}, "-=0");
+		tl.from(ctalockup, {duration: 0.5, x:-5, opacity:0, ease:"Power2.easeOut"}, "-=.25");
+		tl.from(cta, {duration: 0.5, x:-5, opacity:0, ease:"Power2.easeOut"}, "-=.5");
+		tl.from(fineprint, {duration: 0.5, opacity:0, ease:"Power2.easeOut"}, "-=.5");
+		tl.from(legal5, {duration: 0.25, y:10, opacity:0, ease:Power2.easeOut}, "-=.5");
+	};
+</script>
+<script src="./html5API.js"></script>
+
+<script>
+        if(myFT.$('#container').length > 0){ 
+			var container = myFT.$('#container')
+			} 
+		myFT.applyClickTag(container,1);
+</script>
+<script>
+	//1), using FT api, check that the DOMLoaded event has fired
+	myFT.on('DOMLoaded', function() {
+		//2) listen for instantAds event is dispatched
+		myFT.on("instantads", function(){
+				//3) preload dynamic images
+				preloadDynamicVarImages();
+		});
+	});
+</script>
+
+</body></html>
