@@ -1,9 +1,81 @@
+.header, .first-container, .second-container, .third-container, .last-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
 .header-img img {
     height: auto;
     width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
+
+.header {
+    background-color: #f09c67;
+    padding-bottom: 25px;
+}
+
+.header .banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header .links ul{
+    display: flex;
+    gap:20px;
+
+}
+.header ul {
+    list-style: none;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.header-description {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    flex: 1 0 200px;
+    gap: 5px
+}
+
+.header-description .bold-text {
+    font-weight: extra-bold;
+    font-size: 48px;
+    color:white;
+}
+
+.header-description {
+    font-size: 18px;
+    color:white;
+}
+
+.header-img {
+    padding: 10px;
+}
+
 
 .card img {
     height: auto;
     width: 100px;
+}
+
+.first-container {
+    background-color: #fffde8;
+    padding-top: 25px;
 }
