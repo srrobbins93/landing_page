@@ -12,7 +12,7 @@ button {
     height: auto;
     width: 400px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header {
@@ -69,7 +69,6 @@ button {
     padding: 10px;
 }
 
-
 .card img {
     height: auto;
     width: 100px;
@@ -77,5 +76,33 @@ button {
 
 .first-container {
     background-color: #fffde8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-top: 25px;
+}
+
+.first-container h1 {
+
+}
+
+.doodle-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.doodle-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.doodle-cards img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
