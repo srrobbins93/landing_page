@@ -1,38 +1,0 @@
-
-var ftGUID_5183710="50458E0702CBBC";
-var ftConfID_5183710="26611426";
-var ftParams_5183710="ftx=&fty=&ftadz=&ftscw=ebuy=25143981;esid=6478503;epid=289895579;ecid=142020232;eadv=4053494;eaid=483417383;erid=142252337;eexpid=;eexcid=;erv=1;eiid=CJui7ZGLy_QCFczyswodx9YKRQ;&ft_custom=4053494__25143981__6478503__142020232&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.dailypaws.com%2Fdogs-puppies%2Fdog-breeds%2Fgoldendoodle&ft_keyword=__13083099__18728876__10908450__22845739___289895579&ft_section=18372683798399713523843442268665933698%7C__13083099__18728876__10908450__22845739__%7C289895579&gdpr=0&gdpr_consent=&us_privacy=${US_PRIVACY}&cachebuster=460724.5075328152";
-var ftKeyword_5183710="22845739";
-var ftCustom_5183710="4053494__25143981__6478503__142020232";
-var ftSection_5183710="18372683798399713523843442268665933698|__13083099__18728876__10908450__22845739__|289895579";
-var ftSegment_5183710="ac5o,ag0w,ac5n,yq5,aanx,rgs,rgsmonitors,nl2,ac41,ahk2,ahh5,ac2w,ykv,aah5B,ykvsamsungmonitors";
-var ftSegmentList_5183710=[{s:'ac5o',t:50800000},{s:'ag0w',t:50800000},{m:'bbn5ca',s:'ac5n',t:50800000},{s:'yq5',t:50800000},{s:'aanx',t:50800000},{s:'rgs',t:50860000},{s:'rgsmonitors',t:50860000},{s:'nl2',t:50860000},{s:'ac41',t:50860000},{s:'ahk2',t:50860000},{s:'ahh5',t:50860000},{m:'bbw2ca',s:'ac2w',t:50860000},{m:'bbvky',s:'ykv',t:50860000},{m:'bbB5haa',s:'aah5B',t:50860000},{s:'ykvsamsungmonitors'}];
-var ftRuleMatch_5183710="00011000";
-var ftTimestamp_5183710="1638653342";
-var ftGeoC2_5183710="us";
-var ftGeoState_5183710="ma";
-var ftGeoCity_5183710="boston";
-var ftISP_5183710="psinet inc.";
-var ftSpeed_5183710="wireless";
-var ftDMA_5183710="506";
-var ftLong_5183710="-71.06";
-var ftLat_5183710="42.34";
-var ftPostal_5183710="02118";
-var ftTimeZone_5183710="-500";
-var ftMobileCarrier_5183710="";
-var ftImp5183710 = {};
-ftImp5183710.privacy = "x";
-ftImp5183710.guidAge = "41";
-ftImp5183710.impID = "929F5068-07F4-2A12-B080-6BD038B1951A";
-ftImp5183710.duid = "FT:50458E0702CBBC";
-
-ftImp5183710.ft_tpplid = "";
-ftImp5183710.ft_c = {};
-ftImp5183710.gdpr = "0";
-ftImp5183710.gdpr_consent = "";
-ftImp5183710.gdpr_pd = "";
-ftImp5183710.oob_consent = "";
-ftImp5183710.gdprStoredConsent = "";
-ftImp5183710.us_privacy = "!!US_PRIVACY!";
-
-document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/518/5183710/3643114/js/j-5183710-3643114.js" id="ftscript_m5183710" name="ftscript_m5183710"></scr'+'ipt>');

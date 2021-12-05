@@ -1,3 +1,9 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: georgia, serif;
+}
+
 .header, .first-container, .second-container, .third-container, .last-container {
     padding-left: 100px;
     padding-right: 100px;
@@ -6,6 +12,13 @@
 button {
     width: 100px;
     height: 30px;
+    border-radius: 8px;
+    background-color:#2d4059;
+    color: white;
+}
+
+.header button {
+    margin: 10px;
 }
 
 .header-img img {
@@ -28,7 +41,7 @@ button {
 
 .header .links ul{
     display: flex;
-    gap:20px;
+    gap:50px;
 
 }
 .header ul {
@@ -43,7 +56,6 @@ button {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .header-description {
@@ -82,21 +94,20 @@ button {
     padding-top: 25px;
 }
 
-.first-container h1 {
-
-}
-
 .doodle-cards {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    margin-bottom: 25px;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
 }
 
 .doodle-cards .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -105,4 +116,54 @@ button {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f7e0a3;
+}
+
+.second-container .quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.second-container .Daisy {
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 10px;
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    background-color: #fffde8;
+}
+
+.third-container .action-container {
+    display: flex;
+    width: 550px;
+    margin: 50px;
+    padding: 25px;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f09c67;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.last-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f09c67;
 }
